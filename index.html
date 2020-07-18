@@ -7,57 +7,78 @@
   </head>
 
   <body>
-      <!-- logo -->
-      <header>
-          <img src="pic/logo.png" alt="logo image">
-      </header>
-      <div>
-        <!-- 多拉a夢的話 -->
-        <div class="chat">
-            <h4>
-              剛剛你做得非常好！有 95% 的時間處於「非常專注」請記住剛剛的感覺，繼續保持！
-            </h4>
-            </div>
-        <!-- 多拉a夢 -->
-        <div id="doraemon">
-            <img src="pic/Doraemon.png" alt="Doraemon">
-        </div>
-      </div>
-
-      <div>
-        <!-- 專注度變化 -->
+      <div id="left">
+        <!-- logo -->
         <div>
-            <img src="pic/data.png" alt="logo image">
+            <img src="pic/logo.png" alt="logo image" class="logo">
         </div>
-
-        <!-- 按鈕區塊 -->
-        <div>
-            <!-- 左邊區域 -->
-            <div>
-                <!-- 開始下次學習 -->
-                <div></div>
-                 <!-- 左下區域-->
-                <div>
-                    <!--歷史紀錄-->
-                    <div> </div>
-                    <!--匯出結果-->
-                    <div> </div>
-                </div>  
+        <div >
+            <!-- 多拉a夢的話 -->
+            <div class="chat">
+                <img src="pic/chat.png" alt="chat" class="chat">
             </div>
-            <!-- 右邊區域 -->
-            <div>
-                <!-- 查看剛剛學習的回放資料 -->
-                <div></div>
-                <!-- 右下區域-->
-                <div>
-                    <!--設定-->
-                    <div> </div>
-                    <!--結束-->
-                    <div> </div>
-                </div>  
+
+            <!-- 多拉a夢 -->
+            <div id="doraemon">
+                <img src="pic/Doraemon.png" alt="Doraemon" class="Doraemon">
+            </div>
         </div>
 
       </div>
+        
+
+        <div id="right"> 
+            <!-- 專注度變化 -->
+            <div>
+                <img src="pic/data.png" alt="logo image" class="data">
+            </div>
+
+            <!-- 按鈕區塊 -->
+            <div>
+                <!-- 左邊區域 -->
+                <div id="left_box">
+                    <!-- 開始下次學習 -->
+                    <div id="first_box">
+                        <img src="pic/screen.png" alt="screen" id="screen">
+                        <p id="first_text"> 開始 </br> 下次學習 </p>
+                    </div>
+                    <!-- 左下區域-->
+                    <div>
+                        <!--歷史紀錄-->
+                        <div id="second_box">  
+                            <img src="pic/portfolio.png" alt="portfolio" id="portfolio">
+                            <p id="second_text"> 歷史紀錄</p>
+                        </div>
+                        <!--匯出結果-->
+                        <div id="third_box"> 
+                            <img src="pic/output.png" alt="output" id="output">
+                            <p id="third_text"> 匯出結果 </p>
+                        </div>
+                    </div>  
+                </div>
+                <!-- 右邊區域 -->
+                <div id="right_box">
+                    <!-- 查看剛剛學習的回放資料 -->
+                    <div id="fourth_box">
+                        <img src="pic/video.png" alt="video" id="video">
+                        <p id="fourth_text"> 查看 </br> 剛剛學習的 </br> 回放資料 </p>
+                    </div>
+                    <!-- 右下區域-->
+                    <div>
+                        <!--設定-->
+                        <div id="fifth_box">  
+                            <img src="pic/settings.png" alt="settings" id="settings">
+                            <p id="fifth_text"> 設定 </p>
+                        </div>
+                        <!--結束-->
+                        <div id="sixth_box">  
+                            <img src="pic/exit.png" alt="exit" id="exit">
+                            <p id="sixth_text"> 結束 </p>
+                        </div>
+                    </div>  
+            </div>
+
+        </div>
       
 
      </section>
