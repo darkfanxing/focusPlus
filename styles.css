@@ -1,5 +1,160 @@
-/* .chat {
-    background-image: url('pic/chat.png');
-    padding: 120px;
+.logo {
+    width: 343px;
+    height: 121px;
+    object-fit: contain;
+}
+
+.chat {
+    width: 695px;
+    height: 355px;
+    object-fit: contain;
+}
+
+.Doraemon {
+    width: 463px;
+    height: 535px;
+    object-fit: contain;
+}
+
+.data {
+    width: 1056px;
+    height: 538px;
+    object-fit: contain;
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    float: right;
+}
+
+
+
+#left_box {
+    float: left;
+    width: 470px;
+    height: 187px;
+}
+
+#right_box {
+    float: right;
+}
+
+/* 文字 */
+#first_text {
+    width: 152px;
+    height: 107px;
+    font-family: HelveticaNeue;
+    font-size: 38px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    float: right;
+    padding-left: 41px;
+}
+
+#second_text, #third_text, #fifth_text, #sixth_text {
+    width: 152px;
+    height: 53px;
+    font-family: HelveticaNeue;
+    font-size: 38px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
     text-align: center;
-} */
+    color: #707070;
+    margin: 0px;
+    display: block;
+    margin: auto;
+}
+
+#fourth_text {
+    width: 190px;
+    height: 161px;
+    font-family: HelveticaNeue;
+    font-size: 38px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    float: right;
+    padding-left: 41px;
+}
+
+/* 分隔 */
+#first_box, #fourth_box {
+    width: 470px;
+    height: 187px;
+    border: solid 1px #707070;
+}
+
+#second_box, #fifth_box {
+    width: 215px;
+    height: 205px;
+    border: solid 1px #707070;
+    float: left;
+}
+
+#third_box, #sixth_box {
+    width: 215px;
+    height: 205px;
+    border: solid 1px #707070;
+    float: right
+}
+
+/* 照片 */
+#portfolio {
+    width: 117px;
+    height: 117px;
+    display: block;
+    margin: auto;
+}
+
+#output {
+    width: 123px;
+    height: 123px;
+    display: block;
+    margin: auto;
+}
+
+#screen {
+    width: 178px;
+    height: 178px;
+    object-fit: contain;
+    float: left;
+}
+
+#video {
+    width: 161px;
+    height: 161px;
+    object-fit: contain;
+    float: left;
+    vertical-align:middle;
+}
+
+#settings {
+    width: 132px;
+    height: 132px;
+    display: block;
+    margin: auto;
+}
+
+#exit {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+}
+
+
