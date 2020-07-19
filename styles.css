@@ -51,12 +51,11 @@
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.18;
     letter-spacing: normal;
     text-align: left;
     color: #707070;
     float: right;
-    padding-left: 41px;
+    padding-right: 63px;
 }
 
 #second_text, #third_text, #fifth_text, #sixth_text {
@@ -67,13 +66,13 @@
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.18;
     letter-spacing: normal;
     text-align: center;
     color: #707070;
     margin: 0px;
     display: block;
     margin: auto;
+    padding-top: 9px;
 }
 
 #fourth_text {
@@ -84,12 +83,13 @@
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.18;
     letter-spacing: normal;
     text-align: left;
     color: #707070;
     float: right;
-    padding-left: 41px;
+    margin: 0px;
+    padding-right: 25px;
+    margin-top: 13px;
 }
 
 /* 分隔 */
@@ -97,6 +97,7 @@
     width: 470px;
     height: 187px;
     border: solid 1px #707070;
+    margin-bottom: 29px;
 }
 
 #second_box, #fifth_box {
@@ -119,6 +120,7 @@
     height: 117px;
     display: block;
     margin: auto;
+    padding-top: 16px;
 }
 
 #output {
@@ -126,6 +128,7 @@
     height: 123px;
     display: block;
     margin: auto;
+    padding-top: 10px;
 }
 
 #screen {
@@ -133,6 +136,7 @@
     height: 178px;
     object-fit: contain;
     float: left;
+    padding-left: 36px;
 }
 
 #video {
@@ -141,6 +145,8 @@
     object-fit: contain;
     float: left;
     vertical-align:middle;
+    padding-left: 53px;
+    padding-top: 8px;
 }
 
 #settings {
@@ -148,6 +154,7 @@
     height: 132px;
     display: block;
     margin: auto;
+    padding-top: 9px;
 }
 
 #exit {
@@ -155,6 +162,7 @@
     height: 130px;
     display: block;
     margin: auto;
+    padding-top: 11px;
 }
 
 
